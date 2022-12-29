@@ -4,6 +4,7 @@ import Label from "./Label/label";
 import Inputnum from "./Inputs/inputnum";
 import Button from "./Buttons/button";
 import Inputpin from "./Inputs/inputpin";
+import Checkbox from "./Checkbox/checkbox";
 
 const Login = () => {
     return (
@@ -15,7 +16,7 @@ const Login = () => {
             <div className="labeleinputs">
                 <Label text="Numero tarjeta" />
                 <Inputnum />
-                <Label text="PIN" />
+                <Label text="PIN" /> <Checkbox />
                 <Inputpin />
             </div>
             <Button />
