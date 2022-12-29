@@ -1,5 +1,5 @@
 import React from "react";
-import '.Checkbox.css';
+import './checkbox.css';
 
 const Checkbox = () =>{
     return ( 
@@ -8,3 +8,5 @@ const Checkbox = () =>{
         </div>
     )
 }
+
+export default Checkbox;
